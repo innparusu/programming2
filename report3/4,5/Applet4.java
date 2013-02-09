@@ -17,7 +17,7 @@ public class Applet4 extends Applet implements ActionListener {
     }
   }
   public void paint(Graphics g){
-    g.drawString(String.valueOf(number),100,100);
+    g.drawString(String.valueOf(number),100,100); //文字列を出力する。numberはint型であるため,valueOf()メソッドでString型に変換する。
   }
 }
 
