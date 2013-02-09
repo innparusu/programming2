@@ -1,6 +1,3 @@
-//学籍番号 125716B
-//氏名 伊波立樹
-
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
