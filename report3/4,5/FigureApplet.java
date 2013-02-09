@@ -1,12 +1,15 @@
+//学籍番号 125716B
+//氏名 伊波立樹
+
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Random;
 
-public class FigureApplet extends Applet implements ActionListener{
+public class FigureApplet extends Applet implements ActionListener{ //ボタンアクションのためActionListenerインターフェースを実装
   boolean circle = false; //図形判断のブーリアン型変数
   boolean polygon = false; 
-  Button but1 ,but2;
+  Button but1 ,but2; //Buttonクラスの変数を宣言
   public void init(){
     but1 = (Button)add(new Button("多角形 (3~8)角形がランダムで表示されます。")); //ボタンを作成
     but1.addActionListener(this); //ボタンを押した時にアクションを受け取れるようにする
